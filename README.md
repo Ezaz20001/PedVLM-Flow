@@ -22,6 +22,10 @@ JAAD_2/
     └── annotations/*.xml
 ```
 
+## Screenshots
+
+![PedVLM-Flow Pipeline](screenshots/screenshot.png)
+
 ## Pipeline Steps
 
 1. **Environment Setup** — Creates output directories, enumerates videos
