@@ -71,8 +71,23 @@ This project is provided for academic and research purposes only. No formal lice
 
 ## Author
 
-**Amad Uddin** — Research project for pedestrian crossing behavior detection using multimodal vision-language models.
+**Amad Uddin Ezaz** — Research project for pedestrian crossing behavior detection using multimodal vision-language models.
+
+## Research Paper
+
+Amad Uddin Ezaz. *PedVLM-Flow: Enhancing Pedestrian Crossing Intention Prediction with Dual-Stream Vision and Optical Flow.*  
+Available at: [https://www.researchgate.net/publication/404608615_PedVLM-Flow_Enhancing_Pedestrian_Crossing_Intention_Prediction_with_Dual-Stream_Vision_and_Optical_Flow](https://www.researchgate.net/publication/404608615_PedVLM-Flow_Enhancing_Pedestrian_Crossing_Intention_Prediction_with_Dual-Stream_Vision_and_Optical_Flow)
 
 ## Citation
+
+If using this work, please cite:
+
+```
+@article{uddin2025pedvlmflow,
+  title={PedVLM-Flow: Enhancing Pedestrian Crossing Intention Prediction with Dual-Stream Vision and Optical Flow},
+  author={Uddin, Amad and Ezaz},
+  year={2025}
+}
+```
 
 If using the JAAD dataset: I. Kotseruba, et al., "JAAD: Joint Attention for Autonomous Driving," IEEE IV 2016.
