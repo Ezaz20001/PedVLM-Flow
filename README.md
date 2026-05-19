@@ -1,30 +1,10 @@
+<p align="center">
+  <img src="screenshots/screenshot.png" alt="PedVLM-Flow Pipeline"/>
+</p>
+
 # PedVLM-Flow: Enhancing Pedestrian Crossing Intention with Dual-Stream Vision and Optical Flow
 
 A vision-language model for pedestrian crossing behavior detection using the JAAD dataset. Combines a dual-stream vision encoder (CLIP + flow CNN), T5 text embeddings, and temporal attention to classify whether a pedestrian is crossing or not crossing the road.
-
-## Architecture
-
-- **Visual Encoder**: CLIP-ViT-Base-Patch32 (frozen)
-- **Text Encoder**: T5-Small (frozen)
-- **Motion Encoder**: Custom CNN on Farneback optical flow
-- **Temporal Fusion**: Multihead self-attention over frame features
-- **Classifier**: Fused vision + flow + text → binary classification
-
-## Dataset Structure
-
-```
-JAAD_2/
-├── train/
-│   ├── videos/*.mp4
-│   └── annotations/*.xml
-└── test/
-    ├── videos/*.mp4
-    └── annotations/*.xml
-```
-
-## Screenshots
-
-![PedVLM-Flow Pipeline](screenshots/screenshot.png)
 
 ## Pipeline Steps
 
