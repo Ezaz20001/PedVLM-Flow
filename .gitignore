@@ -1,0 +1,30 @@
+# Runtime artifacts
+output_clips/
+model_checkpoints/
+pred_videos/
+augmented_clips/
+validation_results/
+test_results/
+
+# Data files
+*.npy
+*.pt
+*.pth
+*.mp4
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / IDE
+.env
+.venv/
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
